@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.domain.*;
 
-public class TodosTest {
+ class TodosTest {
     SimpleTask simpleTask = new SimpleTask(5, "Позвонить родителям");
 
     String[] subtasks = {"Молоко", "Яйца", "Хлеб"};
@@ -18,7 +18,7 @@ public class TodosTest {
     );
 
     @Test
-    public void shouldAddThreeTasksOfDifferentType() {
+     void shouldAddThreeTasksOfDifferentType() {
 
         Todos todos = new Todos();
 
@@ -30,7 +30,7 @@ public class TodosTest {
     }
 
     @Test
-    public void searchTest() {
+    void searchTest() {
 
         Todos todos = new Todos();
 
@@ -42,7 +42,7 @@ public class TodosTest {
     }
 
     @Test
-    public void searchTest2() {
+     void searchTest2() {
 
         Todos todos = new Todos();
 
@@ -54,7 +54,7 @@ public class TodosTest {
 }
 
     @Test
-    public void searchTest3() {
+     void searchTest3() {
 
         Todos todos = new Todos();
 
@@ -66,7 +66,7 @@ public class TodosTest {
     }
 
     @Test
-    public void searchTest4() {
+     void searchTest4() {
 
         Todos todos = new Todos();
 
@@ -78,7 +78,7 @@ public class TodosTest {
     }
 
     @Test
-    public void searchTest5() {
+     void searchTest5() {
 
         Todos todos = new Todos();
 
