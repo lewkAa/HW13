@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class Todos {
- private Task[] tasks = new Task[0];
+    private Task[] tasks = new Task[0];
 
     private Task[] addToArray(Task[] current, Task task) {
         Task[] tmp = new Task[current.length + 1];
@@ -21,6 +21,7 @@ public class Todos {
     public Task[] findAll() {
         return tasks;
     }
+
     public Task[] search(String query) {
         Task[] result = new Task[0];
         for (Task task : tasks) {
