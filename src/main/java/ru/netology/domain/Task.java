@@ -27,4 +27,9 @@ public class Task {
         return Objects.hash(id);
     }
 
+    public boolean matches(String query) {
+        return false;
+    }
+
+
 }
